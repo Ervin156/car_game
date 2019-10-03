@@ -1,0 +1,90 @@
+body{
+    margin:0 25%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.hide{
+    display: none;
+}
+.car, .enemy{
+    border-radius: 7px;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    background: transparent url(./img/player.png) center / cover no-repeat;
+    left: 175px;
+    bottom: 10px;
+
+}
+
+.line{
+    position: absolute;
+
+    background: white;
+    left: 195px;;
+    width: 10px;
+    height: 50px;
+}
+.game{
+
+    display: flex;
+    height: 100%;
+    position: relative;
+    
+}
+.gameArea{
+
+    display: flex;
+    width: 400px;
+    height: 800px;
+    position: relative;
+    margin-top: 80px;
+    background: #383838;
+    overflow: hidden;
+
+}
+.start{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    font-size: 1rem;
+    background: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.score{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1.5em 0;
+    text-align: center;
+    z-index: 200;
+    color: #fff;
+    font-size: 1rem;
+    background: #6b6b6b;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.scoreList{
+    margin-left: 431px;
+    margin-top: 84px;
+    height: 300px;
+    width: 100px;
+    border: 3px solid gray;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: gray;
+    padding: 5px;
+}
